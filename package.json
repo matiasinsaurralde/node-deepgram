@@ -1,5 +1,5 @@
 {
-  "name": "node-deepgram",
+  "name": "deepgram",
   "version": "1.0.0",
   "description": "NodeJS wrapper for Deepgram",
   "main": "index.js",
