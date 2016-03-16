@@ -2,7 +2,7 @@
   "name": "deepgram",
   "version": "1.0.0",
   "description": "NodeJS wrapper for Deepgram",
-  "main": "index.js",
+  "main": "lib/deepgram.js",
   "scripts": {
     "prepublish": "npm run compile",
     "lint": "eslint src",
