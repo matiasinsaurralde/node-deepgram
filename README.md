@@ -19,6 +19,14 @@ There's a NPM package available:
 
 ```npm install --save deepgram```
 
+Indexing an audio file is as easy as:
+
+```
+deepgram.indexContent( 'http://website.com/audio.mp3' ).then( data => {
+  // you'll get the content ID here (inside data)
+})
+```
+
 Examples available [here](https://github.com/matiasinsaurralde/node-deepgram/tree/master/examples).
 
 ## Development
@@ -34,6 +42,10 @@ The above will compile the JS & run [mocha](https://mochajs.org/) with the [opti
 I found the API documentation [here](http://api.lexika.io/doc/).
 
 When you signup on the website you'll see some ```curl``` samples as well.
+
+## TODO
+
+* It could be interesting to use this module directly from the browser.
 
 ## License
 
