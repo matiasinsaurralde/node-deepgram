@@ -19,6 +19,8 @@ There's a NPM package available:
 
 ```npm install --save deepgram```
 
+Examples available [here](https://github.com/matiasinsaurralde/node-deepgram/tree/master/examples).
+
 ## Development
 
 The wrapper uses Babel. You may test the source using [mocha](https://mochajs.org/):
