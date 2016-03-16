@@ -5,7 +5,27 @@
 [![NPM downloads][npm-downloads]][npm-url]
 [![MIT License][license-image]][license-url]
 
-NodeJS wrapper for Deepgram Speech API
+From the [YC post](http://blog.ycombinator.com/deepgram-yc-w16-is-building-a-google-for-audio):
+
+> **DeepGram is a company launching out of our Winter 2016 class that uses deep learning to index audio and make it searchable for businesses. For example, a company can use DeepGram to analyze their phone support audio dataset and search for moments where their competitors' names are mentioned.**
+
+This project provides a simple NodeJS wrapper for the Deepgram API, it's built on top of [frisbee](https://github.com/niftylettuce/frisbee).
+
+This is a very early version, I hope to implement more functions & enhance the existing ones in the following weeks, PRs are welcome :smile:.
+
+## Usage
+
+There's a NPM package available:
+
+```npm install --save deepgram```
+
+## Development
+
+The wrapper uses Babel. You may test the source using [mocha](https://mochajs.org/):
+
+```npm test```
+
+The above will compile the JS & run [mocha](https://mochajs.org/) with the [options in the file](https://github.com/matiasinsaurralde/node-deepgram/blob/master/test/mocha.opts).
 
 ## License
 
