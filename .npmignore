@@ -1,0 +1,10 @@
+test
+media
+coverage
+src
+.babelrc
+.eslintrc
+wercker.yml
+component.json
+bower.json
+bower_components
