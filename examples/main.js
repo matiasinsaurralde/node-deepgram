@@ -1,6 +1,14 @@
 require('dotenv').config()
 
-const Deepgram = require( '../lib/deepgram' ).default,
+/*
+
+  if you're using Babel do:
+
+  import Deepgram from 'deepgram'
+
+*/
+
+const Deepgram = require( 'deepgram' ).default,
       deepgram = new Deepgram({ userId: process.env.DEEPGRAM_USER_ID })
 
 deepgram.getBalance().then( data => {
