@@ -1,6 +1,6 @@
 {
   "name": "deepgram",
-  "version": "1.0.0",
+  "version": "1.0.2",
   "description": "NodeJS wrapper for Deepgram",
   "main": "lib/deepgram.js",
   "scripts": {
@@ -42,5 +42,9 @@
     "frisbee": "^0.2.0",
     "isomorphic-fetch": "^2.2.1",
     "mocha": "^2.4.5"
+  },
+  "dependencies": {
+    "frisbee": "^0.2.0",
+    "isomorphic-fetch": "^2.2.1"
   }
 }
