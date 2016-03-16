@@ -29,6 +29,12 @@ The wrapper uses Babel. You may test the source using [mocha](https://mochajs.or
 
 The above will compile the JS & run [mocha](https://mochajs.org/) with the [options in the file](https://github.com/matiasinsaurralde/node-deepgram/blob/master/test/mocha.opts).
 
+## API Documentation
+
+I found the API documentation [here](http://api.lexika.io/doc/).
+
+When you signup on the website you'll see some ```curl``` samples as well.
+
 ## License
 
 [MIT][license-url]
