@@ -8,21 +8,30 @@ require('dotenv').config()
 
 */
 
-const Deepgram = require( 'deepgram' ).default,
+const Deepgram = require( '../lib/deepgram' ).default,
       deepgram = new Deepgram({ userId: process.env.DEEPGRAM_USER_ID })
 
-deepgram.getBalance().then( data => {
-  console.log( '=> Balance', data.body.balance )
+deepgram.getBalance().then( balance => {
+  console.log( '=> Balance', balance )
+})
+
+
+deepgram.indexContent( 'https://github.com/pixelate/soundcontrol/raw/master/assets/mp3/HelloWorld.mp3' ).then( contentID => {
+  console.log( '=> Content ID:', contentID )
+})
+
+deepgram.getObjectStatus( '1458116761-3399221f-fb47-4717-bd5b-31f2a4d4c80f-6174788772' ).then( status => {
+  console.log( '=> Object status', status )
 })
 
 deepgram.objectSearch({
-  contentID: '1458104273-e1f1c852-a21a-4963-82a1-590e5ac49481-2311040912',
-  query: 'social epistemology',
+  contentID: '1458116761-3399221f-fb47-4717-bd5b-31f2a4d4c80f-6174788772',
+  query: 'hello',
   snippet: true  
-}).then( data => {
-  console.log( '=> Object Search Results', data.body )
+}).then( search => {
+  console.log( '=> Object Search:', search )
 })
 
-deepgram.getObjectTranscript('1458104273-e1f1c852-a21a-4963-82a1-590e5ac49481-2311040912').then( data => {
-  console.log( '=> Object transcript', data.body )
+deepgram.getObjectTranscript('1458116570-d27af336-b738-4757-88ac-607e5eae970a-3584494445').then( transcript => {
+  console.log( '=> Object transcript', transcript )
 })
