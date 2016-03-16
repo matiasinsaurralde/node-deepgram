@@ -1,0 +1,26 @@
+{
+  "name": "node-deepgram",
+  "version": "1.0.0",
+  "description": "NodeJS wrapper for Deepgram",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha --recursive"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/matiasinsaurralde/node-deepgram.git"
+  },
+  "keywords": [
+    "deepgram",
+    "audio",
+    "voice",
+    "transcription",
+    "api"
+  ],
+  "author": "Matias Insaurralde <matias@insaurral.de>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/matiasinsaurralde/node-deepgram/issues"
+  },
+  "homepage": "https://github.com/matiasinsaurralde/node-deepgram#readme"
+}
