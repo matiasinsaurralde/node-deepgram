@@ -8,7 +8,7 @@
     "lint": "eslint src",
     "compile": "babel src --modules common --out-dir lib",
     "watch": "babel src --watch --modules common --out-dir lib --source-maps",
-    "test": "NODE_ENV=test mocha --compilers js:babel-core/register"
+    "test": "npm run compile && NODE_ENV=test mocha --compilers js:babel-core/register"
   },
   "repository": {
     "type": "git",
