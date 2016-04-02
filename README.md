@@ -22,9 +22,13 @@ There's a NPM package available:
 Indexing an audio file is as easy as:
 
 ```
+import deepgram from 'deepgram';
+
 deepgram.indexContent( 'http://website.com/audio.mp3' ).then( data => {
   // you'll get the content ID here (inside data)
-})
+}).catch( err => {
+  // handle the error
+});
 ```
 
 Examples available [here](https://github.com/matiasinsaurralde/node-deepgram/tree/master/examples).
