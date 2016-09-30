@@ -21,7 +21,7 @@ There's a NPM package available:
 
 Indexing an audio file is as easy as:
 
-```
+```js
 import deepgram from 'deepgram';
 
 deepgram.indexContent( 'http://website.com/audio.mp3' ).then( data => {
