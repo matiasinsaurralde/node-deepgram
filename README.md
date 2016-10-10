@@ -43,7 +43,7 @@ The above will compile the JS & run [mocha](https://mochajs.org/) with the [opti
 
 ## API Documentation
 
-I found the API documentation [here](http://api.lexika.io/doc/).
+I found the API documentation [here](https://api.deepgram.com/doc/).
 
 When you signup on the website you'll see some ```curl``` samples as well.
 
