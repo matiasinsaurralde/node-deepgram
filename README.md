@@ -1,3 +1,7 @@
+# Deprecated
+
+Please use [@deepgram/sdk](https://www.npmjs.com/package/@deepgram/sdk) for the official and maintained Node SDK for Deepgram AI.
+
 # deepgram
 
 [![Wercker][wercker-image]][wercker-url]
